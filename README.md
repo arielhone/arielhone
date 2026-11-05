@@ -10,7 +10,7 @@ I like building hardware end to end: from the schematic and PCB layout, through 
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**zenith-ir**](https://github.com/arielhuna/zenith-ir) | Shabbat-friendly IR home control system. A **custom ESP32-S3 PCB** I designed and assembled, FreeRTOS firmware with an ESP-NOW node network and MQTT over TLS, and a React Native app with an on-device weekly scheduler | KiCad, ESP32-S3, C++ / FreeRTOS, MQTT, React Native |
+| [**zenith-ir**](https://github.com/arielhuna/zenith-ir) | Shabbat-friendly IR home control system. A **custom ESP32-S3 PCB** I designed and assembled, FreeRTOS firmware with MQTT over TLS, and a React Native app with an on-device weekly scheduler | KiCad, ESP32-S3, C++ / FreeRTOS, MQTT, React Native |
 | [**riscv-cpu**](https://github.com/arielhuna/riscv-cpu) | RV32I processor written from scratch. Every module is verified with a self-checking testbench, plus a custom assembler to generate test programs | SystemVerilog, Vivado XSim, Python |
 | [**lora-link-planner**](https://github.com/arielhuna/lora-link-planner) · [▶ live](https://arielhuna.github.io/lora-link-planner/) | Predicts whether a LoRa link will work over Israel's real terrain, using Fresnel zones, ITU-R P.526 diffraction and a full link budget. The physics is unit-tested against reference values | JavaScript, Leaflet, Python (DEM pipeline), ESP32 |
 
